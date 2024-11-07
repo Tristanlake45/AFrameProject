@@ -1,0 +1,100 @@
+/* rules for body and images*/
+body{
+    background: linear-gradient(to left, #e2e2e2, #f7eaba);
+}
+img{
+    max-width: 100%;
+    display:block;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* rules for headers*/
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(to left,#e8918b, #f05046);
+    height: 220px;
+    text-shadow: #181818 1px 1px;
+    color:aliceblue;
+    text-align: center;
+    border-bottom: 4px solid #eb4034;;
+    
+}
+header img {
+    margin: auto;
+}
+
+
+header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav a:hover{
+    color:#d45126;
+}
+
+header h1, header h2, header p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.btn{
+    padding: 1%;
+    background-color: #eb4034;
+    border-radius: 3px;
+    font: #fff;
+    text-shadow: #991f17 1px 1px;
+    font-size: 1.25em;
+
+}
+
+.form{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+.grid{
+    border-top: 4px solid #eb4034;
+    border-bottom: 4px solid #eb4034;
+    border-right: 4px solid #eb4034;
+    border-left: 4px solid #eb4034;
+    background-color: #e8918b;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+}
+
+.aframe{
+    height: 500px;
+    border-top: 4px solid #eb4034;
+    border-bottom: 4px solid #eb4034;
+    border-right: 4px solid #eb4034;
+    border-left: 4px solid #eb4034;
+   
+}
+
+footer{
+    text-align: center;
+}
+
+.map{
+    border-top: 4px solid #eb4034;
+    border-bottom: 4px solid #eb4034;
+    border-right: 4px solid #eb4034;
+    border-left: 4px solid #eb4034;
+}
